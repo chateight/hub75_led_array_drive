@@ -134,11 +134,7 @@ void loop1(){
   }
  
   if (message == 0 || message == 1){
-    if (message == 0){
-      plane = 0;
-    }else { 
-      plane = 1;
-      }
+      plane = message;
       refresh();
     } else {
       gpio_put(oe, HIGH);
