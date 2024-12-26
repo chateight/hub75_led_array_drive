@@ -1,11 +1,11 @@
-This Arduino IDE programs for Raspberry pi pico controls HUB75 LED array with 16 tone
+This Arduino IDE programs for Raspberry pi pico controls HUB75 LED array with 16 tones
 
 BlinkWithoutDelay.ino : main code 
- In this program, three images are prepared. pushing the M5Stack button, display image would be switched rotately
+ In this program when M5Stack button is pushed, display image would be switched rotately
 
-common.h : header file
+common.h : header file and three image code
 
-functions.ino : sub function called from the main routine(BlinkWithoutDelay.ino)
+functions.ino : sub function called from the main routine(BlinkWithoutDelay.ino), the reason why similar routine exist is to shorten the excution time
 
 *.png : connection diagram between the LED array and the Rasp*
 
