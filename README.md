@@ -1,4 +1,4 @@
-This Arduino IDE programs for Raspberry pi pico w controls HUB75 LED array with 16 tones
+This Arduino IDE program controls HUB75 LED array with 16 tones for Raspberry pi pico w
 
 BlinkWithoutDelay.ino : main code 
  In this program when M5Stack button is pushed, display image would be switched rotately
